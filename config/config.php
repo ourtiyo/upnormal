@@ -6,4 +6,4 @@ $password = '';
 $dbname = '';
 $locahost = '';
 
-mysqli_connect($localhost, $username, $password, $dbname);
+//Gak perlu udah ada ORM dari packages
