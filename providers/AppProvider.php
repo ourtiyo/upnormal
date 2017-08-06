@@ -3,6 +3,7 @@
 /**
 * 
 */
+use DB;
 class AppProvider 
 {
 	
@@ -14,6 +15,9 @@ class AppProvider
 
 	function boot()
 	{
+		DB::select("*")
+		  ->whereId(10);
+
 		//hitung percoban
 		$a = 10;
 		$b = 30;
