@@ -14,6 +14,10 @@ class AppProvider
 
 	function boot()
 	{
-		//show code
+		//hitung percoban
+		$a = 10;
+		$b = 30;
+
+		echo $a+$b;
 	}
 }
