@@ -11,4 +11,9 @@ class AppProvider
 		public $return;
 		public $status;
 	}
+
+	function boot()
+	{
+		//show code
+	}
 }
