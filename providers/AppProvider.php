@@ -10,4 +10,9 @@ class AppProvider
 	{
 		# code...
 	}
+
+	function boot()
+	{
+		//show code
+	}
 }
