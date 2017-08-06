@@ -8,6 +8,7 @@ class AppProvider
 	
 	function __construct(argument)
 	{
-		# code...
+		public $return;
+		public $status;
 	}
 }
