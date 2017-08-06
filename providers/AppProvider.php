@@ -3,6 +3,7 @@
 /**
 * 
 */
+use DB;
 class AppProvider 
 {
 	
@@ -14,6 +15,9 @@ class AppProvider
 
 	function boot()
 	{
-		//show code
+		DB::select("*")
+		  ->whereId(10);
+
+		
 	}
 }
